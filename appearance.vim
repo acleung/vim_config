@@ -1,4 +1,6 @@
+" General appearance related configurations that are not functional.
 
+colorscheme darkblue
 " Hack for color terms.
 if &term =~ "xterm"
   if has("terminfo")
@@ -23,7 +25,6 @@ endif
      set t_Sb=[4%dm
    endif
  endif
-
 
 " These for for bars at the bottom
 " use [RO] for [readonly] to save space in the message line:

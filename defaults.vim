@@ -29,13 +29,11 @@ set cindent
 " * Test Editting 
 " TODO read on dictionary / spell check.
 
+colorscheme darkblue
 
 " Common typos.
 iabbrev teh the
 iabbrev w_for for (int i = 0; i < N; i++) {
-
-
-colorscheme darkblue
 
 " set tags=~/.tags
 " if 0 
@@ -67,7 +65,7 @@ endfunction
 filetype plugin on
 "setlocal spell spelllang=en_us
 "map <F1> :!make clean && make <CR>
-map <F1> :!make & <CR>
+"map <F1> :!make & <CR>
 set spell spelllang=en_us
 set nospell
 set paste
@@ -82,5 +80,5 @@ let g:ConqueTerm_CloseOnEnd = 0
 
 " Autosaving views on exit and reload on open
 " au BufWinLeave * silent! mkview 
-au BufWinEnter * silent! loadview 
+autocmd BufWinEnter * silent! loadview 
 
