@@ -2,7 +2,7 @@
 " NerdTree 
 "  Treeviewer pluging.
 " ########################################
-command CTB ConqueTerm bash
+command NT NERDTree
 let NERDTreeDirArrows=0
 let NERDTreeMinimalUI=1
 
