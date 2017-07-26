@@ -1,4 +1,4 @@
-source ~/.vim/acleung_vim/defaults.vim
-source ~/.vim/acleung_vim/appearance.vim
-source ~/.vim/acleung_vim/plugins.vim
-source ~/.vim/acleung_vim/java.vim
+source ~/.vim/vim_config/defaults.vim
+source ~/.vim/vim_config/appearance.vim
+source ~/.vim/vim_config/plugins.vim
+source ~/.vim/vim_config/java.vim
