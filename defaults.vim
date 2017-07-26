@@ -27,8 +27,8 @@ set cindent
 " set paste
 
 " Common typos.
-iabbrev teh the
-iabbrev w_for for (int i = 0; i < N; i++) {
+" iabbrev teh the
+" iabbrev w_for for (int i = 0; i < N; i++) {
 
 " set tags=~/.tags
 " if 0 
